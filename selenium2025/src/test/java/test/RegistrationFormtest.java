@@ -21,7 +21,7 @@ public class RegistrationFormtest extends DriverSetup{
 		
 		register.selectstate("NCR");
 		
-		register.openalertdropdown();
+		register.openAlertDropdown();
 		
 		 navigateToURL("https://www.tutorialspoint.com/selenium/practice/browser-windows.php");
 	}

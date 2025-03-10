@@ -1,8 +1,12 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegistrationForm {
 
@@ -49,12 +53,13 @@ public class RegistrationForm {
 		Thread.sleep(5000);
 	}
 
-	public AlertFrameWindow openalertdropdown() {
-
-		driver.findElement(dropdownalert).click();
-		return new AlertFrameWindow(driver);
-
-	}
+	 public AlertFrameWindow openAlertDropdown() {
+	        driver.findElement(dropdownalert).click();
+	        // Wait for navigation to the new page
+	        new WebDriverWait(driver, Duration.ofSeconds(10))
+	            .until(ExpectedConditions.urlContains("browser-windows.php"));
+	        return new AlertFrameWindow(driver);
+	    }
 
 
 }
