@@ -26,4 +26,4 @@ public class RegistrationFormtest extends DriverSetup{
 		 navigateToURL("https://www.tutorialspoint.com/selenium/practice/browser-windows.php");
 	}
 
-}
+}  //undo commit
