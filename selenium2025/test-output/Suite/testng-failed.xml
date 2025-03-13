@@ -10,12 +10,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- test.RegistrationFormtest -->
-      <class name="test.Alertframewindowtest">
-        <methods>
-          <include name="Alerttest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- test.Alertframewindowtest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

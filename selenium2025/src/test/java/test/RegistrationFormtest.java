@@ -23,7 +23,9 @@ public class RegistrationFormtest extends DriverSetup{
 		
 		register.openAlertDropdown();
 		
-		 navigateToURL("https://www.tutorialspoint.com/selenium/practice/browser-windows.php");
+		register.Clickonbrowserwindow();
+		
+		
 	}
 
 } // feature branch
