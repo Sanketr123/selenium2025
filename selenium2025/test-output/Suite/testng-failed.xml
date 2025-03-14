@@ -4,12 +4,12 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="test.RegistrationFormtest">
+      <class name="test.Alertframewindowtest">
         <methods>
-          <include name="enterfirstname"/>
+          <include name="Alerttest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- test.RegistrationFormtest -->
+      </class> <!-- test.Alertframewindowtest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -11,7 +11,7 @@ public class Alertframewindowtest extends DriverSetup{
 	public void Alerttest() throws InterruptedException {
 	AlertFrameWindow AFW = new AlertFrameWindow(driver);
 	
-	AFW.browserwindow();
+	//AFW.browserwindow();
 	
 	AFW.newTabOpen();
 	

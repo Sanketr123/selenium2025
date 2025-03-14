@@ -24,7 +24,7 @@ public class RegistrationForm {
 
 	private By dropdownalert = By.xpath("//h2[@id='headingThree']");
 	
-	private By browserwindowlink = By.xpath(" //*[ text() = ‘Browser Windows’ ]");
+	private By browserwindowlink = By.xpath("//a[@href='browser-windows.php']");
 
 	public RegistrationForm(WebDriver driver) {
 		this.driver = driver;
